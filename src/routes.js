@@ -2,16 +2,19 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from "./componets/screens/home";
-import Sobre from "./componets/screens/sobre";
-import Contato from "./componets/screens/contato";
+import Register from "./componets/screens/auth/register";
+import Login from "./componets/screens/auth/login";
+import NoteScreen from "./componets/screens/notes/index";
+import UserEdit from "./componets/screens/users";
+
+
 
 export default function Routes() {
     return (
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={Home} />
-                <Route path="/sobre" component={Sobre} />
-                <Route path="/contato" component={Contato} />
+
             </Switch>
         </BrowserRouter>
     );
