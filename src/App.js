@@ -1,10 +1,11 @@
 import React from 'react';
-import Header from './componets/header/index'; 
+import Header from './componets/header'; 
+import { Notification, Section } from 'rbx';
+
 
 const App = () => {
   return (
     <div>
-      <h1>Iassine no front</h1>
       <Header />
     </div>
   );
