@@ -1,8 +1,10 @@
+header{
+  border-bottom: 1px solid #ccc;
+}
 .wrapper{
   width: calc(100% - 40px);
   margin: 0 auto;
   max-width: 1280px;
-  background-color: hotpink;
 }
 .logo{
   width: 100px;
