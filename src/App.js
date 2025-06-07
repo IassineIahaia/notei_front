@@ -1,16 +1,11 @@
-import React from 'react';
-import Header from './componets/header'; 
-import { Notification, Section } from 'rbx';
-import Home from './componets/screens/home';
+import Routes from './routes';
 
-
-const App = () => {
+function App() {
   return (
-    <div>
-      <Header />
-       <Home />
+    <div className="App">
+      <Routes />
     </div>
   );
-};
+}
 
 export default App;

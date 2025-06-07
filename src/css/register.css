@@ -1,0 +1,11 @@
+.register{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5fb2b2;
+}
+.register-form{
+    
+}
